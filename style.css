@@ -1,0 +1,46 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+header {
+    background-image: url("Solution/header.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+h2 {
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: rgb(180, 0, 0);
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	font-weight: 700;
+	color: white;
+	font-size: 0.8em;
+	border-radius: 300px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem; 
+}
+
+.btn-primary {
+	background-color: rgb(180, 0, 0);
+	border-color: rgb(180, 0, 0);
+}
+
+.btn-primary:hover {
+	background-color: rgb(255, 0, 0);
+	border-color: rgb(255, 0, 0);
+  	border-width: 5px;
+
+}
